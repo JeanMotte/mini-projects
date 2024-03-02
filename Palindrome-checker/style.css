@@ -1,0 +1,96 @@
+input:invalid {
+    background-color: ivory;
+    border:none;
+    outline: 2px solid red;
+}
+
+.d-none {
+    display: none;
+}
+
+.displaying {
+    display: inline;
+}
+
+#word {
+    border-radius: 5px;
+    border: 1px solid black;
+    height: 50px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-size: 150%;
+    width: 80%;
+    background-color: whitesmoke;
+    border: solid 2px;
+    text-align: center;
+    background: white;
+}
+
+#answer-id {
+    text-align: center;
+}
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 600px;
+  }
+  
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+
+.container {
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+}
+
+.form-test {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header-text {
+    padding-top: 30px;
+    text-align: center;
+}
+
+#btn-submit {
+    margin-top: 30px;
+    width: 30%;
+    background-color: whitesmoke;
+    border: solid 2px;
+    text-align: center;
+    background: white;
+    border-radius: 5px;
+    padding: 10px 0px;
+}
+
+.class-btn-submit {
+    text-align: center;
+}
+
+p {
+    margin-top: 20px;
+}
+
+.class-label {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.class-input-word {
+    text-align: center;
+}

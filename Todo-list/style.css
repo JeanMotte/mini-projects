@@ -1,0 +1,61 @@
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+  }
+
+.container {
+    height: 500px;
+    width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+  }
+
+.list-items {
+    margin: 0;
+    position: absolute;
+  }
+
+  .form-test {
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+h1 {
+    font-size: 50px;
+}
+
+#instruction {
+    font-size: 25px;
+}
+
+#items {
+    font-size: 16px;
+    text-align: left;
+    margin: 75px 0 75px 180px;
+}
+
+#poubelle {
+    margin-right: 15px;
+}
+
+#poubelle {
+    height: 1em;
+    width: 1em;
+    vertical-align: middle;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+a:hover {
+    cursor: pointer;
+}

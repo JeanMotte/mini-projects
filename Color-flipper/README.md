@@ -1,0 +1,1 @@
+Conception de boutons permettant de modifier la couleur de l'arrière-plan de la page.

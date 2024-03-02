@@ -1,0 +1,100 @@
+h1 {
+   font-family: "Poppins", sans-serif;
+   font-weight: 700;
+   font-style: normal;
+      }
+
+.btn-section {
+    display: flex;
+    justify-content: space-between;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 0px;
+    padding: 0px 100px 0px 100px;
+    margin: 0px 100px 0px 100px;
+    text-align: center;
+    }
+    
+    .btn1 {grid-area: 1 / 1 / 2 / 2;}
+    .btn2 {grid-area: 1 / 2 / 2 / 3;}
+    .btn3 {grid-area: 1 / 3 / 2 / 4;}
+    .btn4 { grid-area: 1 / 4 / 2 / 5;}
+
+#btn-red, #btn-green, #btn-blue, #btnRandom {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 120%;
+    box-shadow: 10px 20px 35px -13px rgba(0,0,0,0.43);
+-webkit-box-shadow: 10px 20px 35px -13px rgba(0,0,0,0.43);
+-moz-box-shadow: 10px 20px 35px -13px rgba(0,0,0,0.43);
+opacity: 1;
+transition: opacity 1s ease 0s;
+}
+
+#btn-red:hover, #btn-green:hover, #btn-blue:hover, #btnRandom:hover {
+    opacity: 0.6;
+}
+
+#btn-clear {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 80%; 
+}
+
+    #btn-red {
+        height: 150px;
+        width: 150px;
+        background-color: #EA2B1F;   
+        border-radius: 50% 50% 68% 32% / 26% 70% 30% 74% ;
+        position: relative;
+        border: none;
+    }
+
+    #btn-green {
+        height: 150px;
+        width: 150px;
+        background-color: #17A398;   
+        border-radius: 50% 50% 50% 50% / 27% 25% 75% 73% ;
+        position: relative;
+        border: none;
+    }
+
+    #btn-blue {
+        height: 150px;
+        width: 150px;
+        background-color: #725AC1;   
+        border-radius: 30% 70% 51% 49% / 30% 28% 72% 70%;
+        position: relative;
+        border: none;
+    }
+
+    #btnRandom {
+        height: 150px;
+        width: 150px;
+        background-color: whitesmoke;   
+        border-radius: 85% 15% 75% 25% / 26% 70% 30% 74% ;
+        position: relative;
+        border: medium solid 2px;
+    }
+
+#btn-clear {
+    height: 50px;
+    width: 100px;
+    background-color: whitesmoke;
+    border: solid 2px;
+    text-align: center;
+    background: white;
+    border-radius: 5px;
+}
+
+.clear-btn {
+    padding:50px 575px;
+}
+
+h1 {
+    text-align: center;
+    margin: 50px 0px 100px 0px;
+}

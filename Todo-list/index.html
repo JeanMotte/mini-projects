@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+    <div id="header" class="roboto-regular">
+    <h1>TODO LIST</h1>  
+    <p id="instruction">Enter your task or note</p>
+    </div>
+
+        <form class="form-test">
+            <input type="text" id="itemInput" placeholder="Buy juice..." name="title">
+            <button class="btn btn-primary" onclick="addItem()">Add Item</button>
+        </form>
+
+            <div id="items" class="roboto-regular list-items parent"></div>
+        </div>
+
+<script src="script.js"></script>
+</body>
+</html>

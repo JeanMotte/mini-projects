@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palindrome Checker</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container roboto-regular">
+        <div class="header-text">
+        <h1>Palindrome Checker</h1>
+        <p>Instructions: Fill the below form and click on "Check" in order to know if the submitted word is a palindrome!</p>
+        </div>
+        <div class="form-test">
+            <form action="" method="get" onsubmit="return false">
+                <div class="class-label">
+                    <label for="word">Enter a word:</label>
+                </div>
+                <div class="class-input-word">    
+                <input type="text" id="word" required minlength="2" maxlength="20" placeholder="Type something"/>
+                </div>
+                
+                <div class="class-btn-submit">
+                    <button onclick="checkInput()" id="btn-submit">Submit</button>
+                </div>
+                <div id="answer-id">
+                <p class="answer" id="answer"></p>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="script-1.js"></script>
+</body>
+</html>
